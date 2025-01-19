@@ -1,0 +1,83 @@
+html, body {
+	font-size: 16px;
+}
+p {
+	font-weight: 400;
+	line-height: 1.4em;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+h1 {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+h3 {
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+h5 {
+	text-align: right;
+}
+ul, ol {
+	font-weight: 300;
+}
+ol {
+	border: 1px solid red;
+	border-radius: 15px;
+	padding: 10px;
+	list-style-position: inside;
+}
+ul {
+	border: 1px dashed red;
+	border-radius: 15px;
+	padding-left: 35px;
+	padding-bottom: 15px;
+	list-style-position: inside;
+	list-style: upper-roman;
+}
+
+.myDiv1{
+	width: 45%;
+	float: left;
+	}
+.myDiv2{
+	width: 45%;
+	float: right;
+	}
+.myDiv3{
+	margin-top: 60%;
+	}
+.myDiv4{
+	width: 100%;
+	margin-bottom: 20%;
+	clear: both; 
+	padding-left: 50px;
+	}
+
+a {
+  	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #febee4
+	
+}
+a:hover {
+	text-decoration: underline;
+	background-color: #827288;
+}
+
+a:visited {
+	color: #2b081d
+}
+
+.sentence {
+	font-style: italic;
+}
