@@ -1,0 +1,54 @@
+html, body {
+	font-size: 16px;
+}
+
+.image_gallery {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.image_gallery > div {
+	 background-color: #f1f1f1;
+	 border: 1px solid black;
+	 font-size: 20px;
+	 text-align: center;
+	 margin-top: 10%; 
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+
+}
+h3 {
+	text-align: center;
+	font-weight: bold;
+
+}
+
+figure {
+	text-align: center;
+
+}
+
+figcaption {
+	font-size: .75 em;
+	font-style: italic;
+
+}
+
+
+a {
+  	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #febee4
+	
+}
+a:hover {
+	text-decoration: underline;
+	background-color: #827288;
+}
+
+a:visited {
+	color: #2b081d
+}
