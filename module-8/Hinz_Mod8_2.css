@@ -1,0 +1,89 @@
+html, body {
+	font-size: 16px;
+}
+
+header {
+	color: white;
+	padding: 20px; 
+	text-align: center;
+	background-color: #117a65;
+}
+
+header a {
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 40px;
+	text-align: center;
+}
+
+.navbar {
+	border-bottom-color: #d5dbdb;
+	border-bottom: 15px solid;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.navbar a {
+	text-decoration: none;
+	text-align: center; 
+	padding: 14px 16px; 	
+	color: white;
+	float: left; 
+	display: block;
+}
+
+.navbar a:hover {
+	background-color: #827288;
+	color: #959d9d;
+}
+
+#container {
+	margin: 2% 5% 100px 5%;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#movies {
+	border-collapse: collapse; 
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#movies th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left; 
+}
+
+#movies td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.card-content {
+	padding: 2px 16px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+	position: fixed; 
+	left: 0;
+	background-color: #117a65;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	font-style: italic; 
+	padding-right: 10px;
+}
+
+footer p {
+	color: white;
+	font-weight: 400;
+	float: right;
+	padding-right: 10px;
+	font-style: italic;
+	
+}
